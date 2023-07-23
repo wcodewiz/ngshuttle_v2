@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="PointTwin" name="description">
+  <link href="%PUBLIC_URL%/favicon.ico" rel="icon" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta content="#000000" name="theme-color" />
+  <meta content="Make amazing softwares without codeing" name="description" />
+  <link href="%PUBLIC_URL%/logo192.png" rel="apple-touch-icon" />
+  <link href="%PUBLIC_URL%/static/css/slick.css" rel="stylesheet">
+  <link href="%PUBLIC_URL%/static/css/slick-theme.css" rel="stylesheet">
+  <link href="%PUBLIC_URL%/manifest.json" rel="manifest" />
+  <link href="%PUBLIC_URL%/static/css/style.min.css" rel="stylesheet" />
+  <title id="pageTitle"></title>
+</head>
+
+<body class="bg-slate-200">
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div class="scroll-smooth" id="root"></div>
+  <script src="%PUBLIC_URL%/static/js/jquery.min.js"></script>
+  <script src="%PUBLIC_URL%/static/js/slick.min.js"></script>
+  <script>
+    window.appName = "Ngshuttle";
+    window.$(document).ready(function () {
+      document.querySelector("#pageTitle").innerHTML = window.appName;
+    });
+  </script>
+  <script src="%PUBLIC_URL%/constants.js"></script>
+</body>
+
+</html>
