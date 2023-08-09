@@ -1,0 +1,34 @@
+.loaderanim {
+    height: .3rem;
+}
+
+@keyframes shimmering {
+    from {
+        background-position: 200% 0;
+    }
+
+    to {
+        background-position: -200% 0;
+    }
+}
+
+
+.loader-thumb {
+
+    background: #ff0066;
+    background-image: linear-gradient(to right, #ff0066 0%, #d63a79 20%, #fa88b5 40%, #f64f91 100%);
+    background-repeat: no-repeat;
+    background-size: 200% 100%;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: shimmering;
+    -webkit-animation-timing-function: linear;
+
+    animation-name: shimmering;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    border-radius: 20px;
+}
